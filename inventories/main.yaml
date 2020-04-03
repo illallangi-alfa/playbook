@@ -1,0 +1,100 @@
+---
+dns:
+  children:
+    mel_heo:
+
+k8s:
+  children:
+    k8s_master:
+    k8s_worker:
+    k8s_edge:
+
+k8s_master:
+  children:
+    mel_heo:
+
+k8s_worker:
+  children:
+    mel_nuc:
+
+k8s_edge:
+  children:
+    mel_rpi:
+
+mel:
+  children:
+    mel_heo:
+    mel_rpi:
+    mel_nuc:
+
+mel_heo:
+  children:
+    mel_heo_1:
+    mel_heo_2:
+    mel_heo_3:
+
+mel_rpi:
+  children:
+    mel_rpi_1:
+    mel_rpi_2:
+    mel_rpi_3:
+    mel_rpi_4:
+    mel_rpi_5:
+    mel_rpi_6:
+    mel_rpi_7:
+    mel_rpi_8:
+
+mel_nuc:
+  children:
+    mel_nuc_1:
+    mel_nuc_2:
+    mel_nuc_3:
+    mel_nuc_4:
+
+mel_heo_1:
+  hosts:
+    mel-heo-1.alfa.illallangi.dn42:
+mel_heo_2:
+  hosts:
+    mel-heo-2.alfa.illallangi.dn42:
+mel_heo_3:
+  hosts:
+    mel-heo-3.alfa.illallangi.dn42:
+
+mel_rpi_1:
+  hosts:
+    mel-rpi-1.alfa.illallangi.dn42:
+mel_rpi_2:
+  hosts:
+    mel-rpi-2.alfa.illallangi.dn42:
+mel_rpi_3:
+  hosts:
+    mel-rpi-3.alfa.illallangi.dn42:
+mel_rpi_4:
+  hosts:
+    mel-rpi-4.alfa.illallangi.dn42:
+mel_rpi_5:
+  hosts:
+    mel-rpi-5.alfa.illallangi.dn42:
+mel_rpi_6:
+  hosts:
+    mel-rpi-6.alfa.illallangi.dn42:
+mel_rpi_7:
+  hosts:
+    mel-rpi-7.alfa.illallangi.dn42:
+mel_rpi_8:
+  hosts:
+    mel-rpi-8.alfa.illallangi.dn42:
+
+mel_nuc_1:
+  hosts:
+    mel-nuc-1.alfa.illallangi.dn42:
+mel_nuc_2:
+  hosts:
+    mel-nuc-2.alfa.illallangi.dn42:
+mel_nuc_3:
+  hosts:
+    mel-nuc-3.alfa.illallangi.dn42:
+mel_nuc_4:
+  hosts:
+    mel-nuc-4.alfa.illallangi.dn42:

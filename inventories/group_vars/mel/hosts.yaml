@@ -1,0 +1,4 @@
+---
+hosts:
+ - hostname: "mel-nfs-1.alfa.illallangi.dn42"
+   ipv4: "172.20.227.195/27"

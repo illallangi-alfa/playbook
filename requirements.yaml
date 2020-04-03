@@ -1,0 +1,18 @@
+---
+- src: "git+https://github.com/illallangi-alfa/configure-hostname"
+- src: "git+https://github.com/illallangi-alfa/configure-hosts"
+
+- src: "git+https://github.com/illallangi-alfa/configure-nfs"
+- src: "git+https://github.com/illallangi-alfa/configure-lm-sensors"
+- src: "git+https://github.com/illallangi-alfa/configure-kubernetes"
+- src: "git+https://github.com/illallangi-alfa/configure-bmon"
+- src: "git+https://github.com/illallangi-alfa/configure-htop"
+- src: "git+https://github.com/illallangi-alfa/configure-nethogs"
+- src: "git+https://github.com/illallangi-alfa/configure-tmux"
+- src: "git+https://github.com/illallangi-alfa/configure-rsync"
+
+- src: "git+https://github.com/illallangi-alfa/deploy-lb"
+- src: "git+https://github.com/illallangi-alfa/deploy-storage"
+- src: "git+https://github.com/illallangi-alfa/deploy-powerdns"
+
+- src: "git+https://github.com/illallangi-alfa/update-packages"

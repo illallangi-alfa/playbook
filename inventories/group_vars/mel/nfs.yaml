@@ -1,0 +1,4 @@
+---
+nfs:
+  - what:    "mel-nfs-1.alfa.illallangi.dn42:/volume1"
+    where:   "/volume1"

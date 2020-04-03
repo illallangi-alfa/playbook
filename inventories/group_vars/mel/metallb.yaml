@@ -1,0 +1,12 @@
+---
+metallb:
+  peers:
+    - peer-asn:     4258580002
+      my-asn:       4258580002
+      peer-address: 127.0.0.1
+      router-id:    127.0.0.1
+  pools:
+    dynamic:
+      auto: true
+      addresses:
+        - "100.64.0.1-100.64.0.255"

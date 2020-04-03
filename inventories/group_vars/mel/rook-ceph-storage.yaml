@@ -1,0 +1,15 @@
+---
+rook_ceph_storage:
+
+  - name: "bronze-rwo"
+    replicaCount: 1
+
+  - name: "silver-rwo"
+    replicaCount: 2
+
+  - name: "silver-rwx"
+    replicaCount: 1
+    type: "filesystem"
+
+  - name: "gold-rwo"
+    replicaCount: 3

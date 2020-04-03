@@ -1,0 +1,4 @@
+---
+k8s:
+  hostname: "mel-heo.alfa.illallangi.enterprises"
+  ipv4: "100.64.0.0/32"

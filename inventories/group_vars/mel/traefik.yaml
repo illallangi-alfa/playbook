@@ -1,0 +1,3 @@
+---
+traefik:
+  - fqdn: "traefik.me0.illallangi.enterprises"

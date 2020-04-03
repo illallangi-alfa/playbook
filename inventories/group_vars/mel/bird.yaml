@@ -1,0 +1,10 @@
+---
+
+bird:
+  asn: 4258580002
+  peers:
+    - name: "metallb"
+      ipv4: "127.0.0.1/32"
+    - name: "mel-router-1"
+      ipv4: "172.22.158.160/32"
+      asn: 4242420058
