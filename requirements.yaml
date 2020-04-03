@@ -2,7 +2,6 @@
 - src: "git+https://github.com/illallangi-alfa/configure-hostname"
 - src: "git+https://github.com/illallangi-alfa/configure-hosts"
 
-- src: "git+https://github.com/illallangi-alfa/configure-nfs"
 - src: "git+https://github.com/illallangi-alfa/configure-lm-sensors"
 - src: "git+https://github.com/illallangi-alfa/configure-kubernetes"
 - src: "git+https://github.com/illallangi-alfa/configure-bmon"

@@ -8,7 +8,6 @@
     - "configure-hostname"
     - "configure-hosts"
 
-    - "configure-nfs"
     - "configure-lm-sensors"
     - "configure-kubernetes"
     - "configure-bmon"
